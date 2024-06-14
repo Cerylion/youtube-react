@@ -10,7 +10,7 @@ export default function Content() {
     },
     { image: 'https://picsum.photos/300/200',
       title: 'This is another video title',
-      channel: 'A 2nd Channel Name'
+      // channel: 'A 2nd Channel Name'
     },
     { image: 'https://picsum.photos/300/200',
       title: 'This is a third video title',
@@ -23,9 +23,9 @@ export default function Content() {
   ]
 
   return (
-  <section id="content">
+  <section id="content" className='col-start-2 col-end-3 row-start-2 row-end-3'>
     <Categories />
-    <section id='videos'>
+    <section id='videos' className='grid grid-cols-4 gap-[1rem]'>
     {
       videos.map((video) => {
         return <Video
