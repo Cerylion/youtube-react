@@ -9,7 +9,7 @@ export default function NavBar() {
       <input className="w-full p-[0.5rem_1rem] border border-[#282828] rounded-full bg-transparent" type="text" placeholder="Search" />
     </div>
     <div id="user-icon" className="flex justify-end">
-    <img className="w-1 h-1 rounded-full"
+    <img className="w-8 h-8 rounded-full"
   src="https://api.dicebear.com/8.x/identicon/svg"
   alt="avatar"
 />

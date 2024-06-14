@@ -1,7 +1,7 @@
 export default function Categories() {
   const categories = ['All', 'Music', 'Gamming', 'Code', 'Programming', 'Life Style', 'Sports' ]
   return (
-    <div id="categories-list" className="flex flex-row gap-[1rem]">
+    <div id="categories-list" className="flex flex-row gap-[1rem] p-[0.5rem]">
       {/*
       <span className="category">Cat 1</span>
       */}
